@@ -1,7 +1,7 @@
 login_pw = 'a123'
 trail = 3
 
-while True:
+while trail > 0:
     pw = input('Please input the password:')
     if pw == login_pw:
         print('Login Successfully!')
@@ -11,7 +11,6 @@ while True:
         print('Wrong password!', trail, 'chance left')
         if trail == 0:
             print('Game Over!')
-            break
 
 
 
